@@ -1,0 +1,91 @@
+@import "../../Variables/Variables.scss";
+.back-btn {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: rgb(79, 79, 195);
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  transition: 0.5s;
+  display: inline;
+  &:hover {
+    background-color: rgb(64, 64, 136);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+.btn-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.update {
+  font-weight: 700;
+  font-size: 25px;
+  background-color: rgb(105, 168, 69);
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  width: 110px;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgb(54, 122, 45);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+.delete {
+  font-weight: 700;
+  font-size: 25px;
+  background-color: rgb(151, 62, 62);
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  width: 110px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  &:hover {
+    background-color: rgb(104, 38, 38);
+    cursor: pointer;
+    transition: 0.5s;
+  }
+}
+.details-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 15px;
+  background-color: white;
+  width: 95%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  border-top: solid $theme 9px;
+  min-height: 500px;
+  div {
+    h3 {
+      font-size: 14px;
+    }
+  }
+  hr {
+    background-color: rgb(187, 187, 187);
+    border: none;
+    height: 1px;
+  }
+}
+
+
+@media all and (min-width: 900px) {
+    .details-section {
+        width: 820px;
+        margin: 20px auto;
+    }
+    .back-btn {
+        margin-left: 0;
+    }
+}

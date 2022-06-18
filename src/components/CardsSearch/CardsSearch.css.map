@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,YAAY,CAAC;EACT,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,GAAG;EACV,MAAM,EAAE,gBAAgB;EACxB,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,GAAG,CAAC,KAAK,CAAC,OAAkB;EACpC,YAAY,EAAE,IAAI;CACrB;;AAED,MAAM,CAAC,GAAG,MAAM,SAAS,EAAE,KAAK;EAC5B,AAAA,YAAY,CAAC;IACX,MAAM,EAAE,iBAAiB;IACzB,KAAK,EAAE,KAAK;IACZ,MAAM,EAAE,IAAI;GACb",
+    "sources": [
+        "CardsSearch.scss",
+        "../../Variables/Variables.scss"
+    ],
+    "names": [],
+    "file": "CardsSearch.css"
+}

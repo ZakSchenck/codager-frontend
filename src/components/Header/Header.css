@@ -1,0 +1,63 @@
+header {
+  height: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+}
+
+header .logo-container p {
+  color: #a0a0a0;
+  font-size: 11px;
+}
+
+header .add-btn {
+  background-color: #887ce4;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  margin-left: auto;
+  border-radius: 50%;
+}
+
+header .add-btn:hover {
+  cursor: pointer;
+}
+
+header .add-btn h1 {
+  font-size: 32px;
+  position: absolute;
+  color: white;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -57%);
+          transform: translate(-50%, -57%);
+}
+
+@media all and (min-width: 450px) {
+  header .add-btn {
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  header .add-btn h1 {
+    font-size: 25px;
+  }
+}
+
+@media all and (min-width: 900px) {
+  header {
+    padding: 0;
+    margin: 20px auto 40px auto;
+    width: 820px;
+  }
+}
+/*# sourceMappingURL=Header.css.map */

@@ -1,0 +1,95 @@
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  margin: 20px auto;
+  gap: 15px;
+  background-color: white;
+  padding: 16px;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 10px lightgray;
+          box-shadow: 8px 8px 10px lightgray;
+}
+
+form h1 {
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: 700;
+}
+
+form input {
+  border: none;
+  background-color: #eeeeff;
+  height: 30px;
+  border-radius: 6px;
+}
+
+form textarea {
+  border: none;
+  background-color: #eeeeff;
+  height: 120px;
+  border-radius: 6px;
+}
+
+form select {
+  border: none;
+  background-color: #eeeeff;
+  height: 30px;
+  border-radius: 6px;
+}
+
+form div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 15px auto;
+  gap: 15px;
+}
+
+form div button {
+  border: none;
+  outline: none;
+  background-color: #887ce4;
+  color: white;
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+form div button:hover {
+  cursor: pointer;
+}
+
+form div a {
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+form div a:hover {
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+/*# sourceMappingURL=PostCard.css.map */

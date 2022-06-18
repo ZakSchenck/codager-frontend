@@ -1,0 +1,52 @@
+@import "../../Variables/Variables.scss";
+.navigation-container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  margin: 20px auto;
+  a {
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(199, 199, 199);
+    display: block;
+    width: 33.3%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    font-weight: 700;
+    &::after {
+        position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    bottom: -8px;
+    left: 0;
+    }
+  }
+  .active {
+    color: $theme;
+    position: relative;
+  }
+  .active::after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 100%;
+    background-color: $theme;
+    bottom: -8px;
+    left: 0;
+  }
+}
+
+@media all and (min-width: 900px) {
+    .navigation-container {
+      margin: 20px auto 0 auto;
+      width: 700px;
+      height: 38px;
+      a {
+          font-size: 20px;
+      }
+    }
+  }

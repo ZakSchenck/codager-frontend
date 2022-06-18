@@ -1,0 +1,79 @@
+@import "../../Variables/Variables.scss";
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 60px;
+  width: 90%;
+  margin: 0 auto;
+  justify-content: space-around;
+  background-color: white;
+  padding: 8px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+  transition: 0.5s;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: 0.5s;
+  }
+  .app-name {
+    font-weight: 800;
+  }
+  .status-pending {
+    font-size: 14px;
+    background-color: $pending;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .status-completed {
+    font-size: 14px;
+    background-color: $completed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px;
+    margin-top: 5px;
+    display: inline-block;
+  }
+  .card-container-2 {
+    margin-left: auto;
+    .date {
+      color: $text;
+      margin-top: 5px;
+      text-align: right;
+    }
+    .client-name {
+      font-weight: 600;
+    }
+  }
+}
+
+@media all and (min-width: 650px) {
+  .card-container-2,
+  .card-container-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+  }
+}
+@media all and (min-width: 900px) {
+  .card {
+    width: 820px;
+    flex-direction: row-reverse;
+  }
+}

@@ -1,0 +1,120 @@
+.back-btn {
+  margin-left: 20px;
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #4f4fc3;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline;
+}
+
+.back-btn:hover {
+  background-color: #404088;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.btn-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.update {
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #69a845;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  width: 110px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.update:hover {
+  background-color: #367a2d;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.delete {
+  font-weight: 700;
+  font-size: 25px;
+  background-color: #973e3e;
+  border-radius: 10px;
+  color: white;
+  padding: 5px 12px;
+  width: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.delete:hover {
+  background-color: #682626;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.details-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  gap: 15px;
+  background-color: white;
+  width: 95%;
+  margin: 20px auto;
+  padding: 15px;
+  border-radius: 10px;
+  border-top: solid #887ce4 9px;
+  min-height: 500px;
+}
+
+.details-section div h3 {
+  font-size: 14px;
+}
+
+.details-section hr {
+  background-color: #bbbbbb;
+  border: none;
+  height: 1px;
+}
+
+@media all and (min-width: 900px) {
+  .details-section {
+    width: 820px;
+    margin: 20px auto;
+  }
+  .back-btn {
+    margin-left: 0;
+  }
+}
+/*# sourceMappingURL=SingleCard.css.map */

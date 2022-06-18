@@ -1,0 +1,41 @@
+@import "../../Variables/Variables.scss";
+
+.next-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  button {
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    background-color: $theme;
+    padding: 7px 12px;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  button.disable {
+        pointer-events: none;
+        background-color: gray;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .card-container {
+    margin-top: 28px;
+  }
+  .next-btns {
+    width: 820px;
+    margin: 20px auto;
+    button {
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+}

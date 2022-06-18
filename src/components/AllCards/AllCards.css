@@ -1,0 +1,47 @@
+.next-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.next-btns button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  color: white;
+  background-color: #887ce4;
+  padding: 7px 12px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.next-btns button:hover {
+  cursor: pointer;
+}
+
+.next-btns button.disable {
+  pointer-events: none;
+  background-color: gray;
+}
+
+@media all and (min-width: 900px) {
+  .card-container {
+    margin-top: 28px;
+  }
+  .next-btns {
+    width: 820px;
+    margin: 20px auto;
+  }
+  .next-btns button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=AllCards.css.map */

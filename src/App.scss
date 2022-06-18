@@ -1,5 +1,7 @@
+@import "./Variables/Variables.scss";
+
 body {
-  background-color: #f1f1f1;
+  background-color: $background;
 }
 
 @media all and (min-width: 900px) {
@@ -8,4 +10,3 @@ body {
     margin: 10px auto;
   }
 }
-/*# sourceMappingURL=App.css.map */

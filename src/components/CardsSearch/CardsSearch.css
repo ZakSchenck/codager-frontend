@@ -1,0 +1,18 @@
+.searchInput {
+  height: 30px;
+  width: 90%;
+  margin: 20px auto 0 auto;
+  display: block;
+  border-radius: 50px;
+  border: 1px solid #dbdbdb;
+  padding-left: 15px;
+}
+
+@media all and (min-width: 900px) {
+  .searchInput {
+    margin: -20px auto 0 auto;
+    width: 700px;
+    height: 38px;
+  }
+}
+/*# sourceMappingURL=CardsSearch.css.map */

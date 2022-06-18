@@ -1,0 +1,72 @@
+@import "../../Variables/Variables.scss";
+form {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 20px auto;
+    gap: 15px;
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 10px lightgray;
+    h1 {
+        margin: 0 auto;
+    }
+    label {
+        font-weight: 700;
+    }
+    input {
+        border: none;
+        background-color: rgb(238, 238, 255);
+        height: 30px;
+        border-radius: 6px;
+    }
+    textarea {
+        border: none;
+        background-color: rgb(238, 238, 255);
+        height: 120px;
+        border-radius: 6px;
+    }
+    select {
+        border: none;
+        background-color: rgb(238, 238, 255);
+        height: 30px;
+        border-radius: 6px;
+    }
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 15px auto;
+        gap: 15px;
+        button {
+            border: none;
+            outline: none;
+            background-color: $theme;
+            color: white;
+            font-size: 20px;
+            padding: 6px 10px;
+            border-radius: 8px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        a {
+            border: none;
+            outline: none;
+            background-color: red;
+            color: white;
+            font-size: 20px;
+            padding: 6px 10px;
+            border-radius: 8px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
