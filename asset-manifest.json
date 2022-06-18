@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/codager-frontend/static/css/main.e20a1a0b.css",
+    "main.js": "/codager-frontend/static/js/main.f832d3bc.js",
+    "index.html": "/codager-frontend/index.html",
+    "main.e20a1a0b.css.map": "/codager-frontend/static/css/main.e20a1a0b.css.map",
+    "main.f832d3bc.js.map": "/codager-frontend/static/js/main.f832d3bc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e20a1a0b.css",
+    "static/js/main.f832d3bc.js"
+  ]
+}
