@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 function Card({ item }) {
   return (
-    <Link to={`/clients/${item.id}`}>
+    <Link to={`/codager-frontend/clients/${item.id}`}>
     <div className="card">
       <div className="card-container-1">
         <p className="app-name">{item.appname}</p>

@@ -22,7 +22,7 @@ function Header() {
       </div>
 
       <div className="add-btn">
-        <Link to="/new-client">
+        <Link to="/codager-frontend/new-client">
           <h1>{width >= 450 && "New "} &#43;</h1>
         </Link>
       </div>

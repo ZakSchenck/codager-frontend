@@ -68,7 +68,7 @@ function App() {
       >
         <Routes>
           <Route
-            path="/"
+            path="/codager-frontend"
             element={
               <>
                 {" "}
@@ -77,7 +77,7 @@ function App() {
             }
           />
           <Route
-            path="/pending"
+            path="/codager-frontend/pending"
             element={
               <>
                 {" "}
@@ -86,7 +86,7 @@ function App() {
             }
           />
           <Route
-            path="/completed"
+            path="/codager-frontend/completed"
             element={
               <>
                 {" "}
@@ -95,15 +95,15 @@ function App() {
             }
           />
           <Route
-            path="/clients/:cardId"
+            path="/codager-frontend/clients/:cardId"
             element={
               <>
                 <Header /> <SingleCard fetchRequests={fetchRequests} />
               </>
             }
           />
-          <Route path="/new-client" element={<PostCard fetchRequests={fetchRequests} />} />
-          <Route path="/clients/:cardId/update" element={<EditCard fetchRequests={fetchRequests} />} />
+          <Route path="/codager-frontend/new-client" element={<PostCard fetchRequests={fetchRequests} />} />
+          <Route path="/codager-frontend/clients/:cardId/update" element={<EditCard fetchRequests={fetchRequests} />} />
         </Routes>
       </DataContext.Provider>
     </main>

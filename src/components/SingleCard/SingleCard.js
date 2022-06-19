@@ -24,7 +24,7 @@ function SingleCard({ fetchRequests }) {
 
   return (
     <>
-      <Link to="/" className="back-btn">
+      <Link to="/codager-frontend" className="back-btn">
         Back
       </Link>
       <section className="details-section">
@@ -50,7 +50,7 @@ function SingleCard({ fetchRequests }) {
         </div>
       </section>
       <div className="btn-section">
-        <Link to={`/clients/${singleCard.id}/update`} className="update">
+        <Link to={`/codager-frontend/clients/${singleCard.id}/update`} className="update">
           Update
         </Link>
         <button

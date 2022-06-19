@@ -5,9 +5,9 @@ import "./Navigator.css";
 function Navigator() {
   return (
     <section className="navigation-container">
-      <NavLink to="/" activeclassname="active">All</NavLink>
-      <NavLink to="/completed" activeclassname="active">Completed</NavLink>
-      <NavLink to="/pending" activeclassname="active">Pending</NavLink>
+      <NavLink to="/codager-frontend" activeclassname="active">All</NavLink>
+      <NavLink to="/codager-frontend/completed" activeclassname="active">Completed</NavLink>
+      <NavLink to="/codager-frontend/pending" activeclassname="active">Pending</NavLink>
     </section>
   );
 }

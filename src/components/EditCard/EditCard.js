@@ -113,7 +113,7 @@ function EditCard({ fetchRequests }) {
           )}
           <div className="form-btns">
             <button type="submit">Submit</button>
-            <Link to="/">Cancel</Link>
+            <Link to="/codager-frontend">Cancel</Link>
           </div>
         </form>
       </section>
