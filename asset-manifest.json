@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/codager-frontend/static/css/main.e20a1a0b.css",
-    "main.js": "/codager-frontend/static/js/main.f832d3bc.js",
+    "main.js": "/codager-frontend/static/js/main.2678ea62.js",
     "index.html": "/codager-frontend/index.html",
     "main.e20a1a0b.css.map": "/codager-frontend/static/css/main.e20a1a0b.css.map",
-    "main.f832d3bc.js.map": "/codager-frontend/static/js/main.f832d3bc.js.map"
+    "main.2678ea62.js.map": "/codager-frontend/static/js/main.2678ea62.js.map"
   },
   "entrypoints": [
     "static/css/main.e20a1a0b.css",
-    "static/js/main.f832d3bc.js"
+    "static/js/main.2678ea62.js"
   ]
 }
